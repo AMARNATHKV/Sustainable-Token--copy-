@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ethers } from "ethers";
 import SustainableProductNFT from "../scdata/SustainableProductNFT.json"; // Adjust the path as needed
 
-const contractAddress = "0x0bAC2940cd53b93Bf79CC66a8c26814e6e3446cf"; // Your contract address
+const contractAddress = "0x2bFDF4E55B96E4FC5bACF166b8b2ABeAE8784135"; // Your contract address
 
 const Login = () => {
   const [account, setAccount] = useState("");

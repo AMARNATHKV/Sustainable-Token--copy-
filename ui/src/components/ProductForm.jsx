@@ -1,6 +1,5 @@
 // src/components/ProductForm.jsx
 import React, { useState } from 'react';
-
 const ProductForm = ({ onSubmit }) => {
   const [formData, setFormData] = useState({
     productId: '',

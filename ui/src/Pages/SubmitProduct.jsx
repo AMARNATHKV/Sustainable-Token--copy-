@@ -5,7 +5,7 @@ import ProductForm from '../components/ProductForm';
 import Header from '../components/Header';
 import SustainableProductNFT from '../scdata/SustainableProductNFT.json'; // Import the ABI
 
-const contractAddress = "0x4D403E4A91357a3F4cE0dF533FF4d9559565c8Ae"; // Your contract address
+const contractAddress = "0x2bFDF4E55B96E4FC5bACF166b8b2ABeAE8784135"; // Your contract address
 
 const SubmitProduct = () => {
   const [account, setAccount] = useState('');

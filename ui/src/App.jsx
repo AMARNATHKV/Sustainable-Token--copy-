@@ -5,7 +5,7 @@ import Home from './Pages/Home';
 import SubmitProduct from './Pages/SubmitProduct';
 import ProductListing from './Pages/ProductListing';
 import Login from './Pages/Login';
-
+import ProductDetails from './Pages/ProductDetails';
 const App = () => {
   return (
     <Router>
@@ -14,7 +14,7 @@ const App = () => {
         <Route path="/submit-product" element={<SubmitProduct />} />
         <Route path="/products" element={<ProductListing />} />
         <Route path="/login" element={<Login />} />
-
+        <Route path="/products/:productId" element={<ProductDetails />} />
 
         {/* Add other routes here */}
       </Routes>
